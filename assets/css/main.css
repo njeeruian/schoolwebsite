@@ -1,0 +1,195 @@
+
+nav{
+    text-align:left;
+    background-color: aquamarine;
+    padding: 40px 5px 5px 20px;
+    margin: 10px;
+}
+button{
+    padding: 8px 2px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+p{
+    color: black;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+a {
+    color: red;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: inherit;
+    font-family: "Abyssinica SIL"
+}
+body{
+    background-color: peru;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 2px solid;
+}
+.contacts-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.map{
+    flex: 1;
+    min-width: 300px;
+}
+.videos{
+    flex: 1.5;
+    min-width: 300px;
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 15px;
+}
+iframe{
+    max-width: 100%;
+}
+/*signup style*/
+form{
+    max-width: 600px;
+    margin: auto;
+    background: aliceblue;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+fieldset{
+    border: none;
+    padding: 0;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom:20px ;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+input[value="submit"]{
+    color: white;
+}
+.submit:hover{
+    background-color: black;
+
+}
+}
+input[type="text"],select{
+    padding: 10px;
+    border: 1px solid darkslategray;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%
+}
+.form-inline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+}
+/*gallery styles*/
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+#images img{
+ width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+#images img:hover{
+    transform: scale(1.15);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+.home-image {
+    border-radius: 12px;
+    height: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+nav{
+    background-color: #173815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    top: 0;
+}
+ nav ul {
+     display: flex;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ nav ul li{
+     margin: 0 20px;
+ }
+ nav ul li a{
+     text-decoration: none;
+color:yellowgreen;
+     font-weight: bold;
+     font-size: 20px;
+     padding: 10px 20px;
+     border-radius: 10px;
+ }
+ nav ul li a:hover{
+     background-color: #c90c0c;
+     color: black;
+     transition: 0.3s ease-in-out;
+
+ }
+/*about us hero image section*/
+.hero-image {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.hero-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 36px;
+font-weight: bold;
+    color: black;
+text-decoration: tomato underline;
+
+}
